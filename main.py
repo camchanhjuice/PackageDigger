@@ -1,5 +1,4 @@
 from requests_html import HTMLSession
-import csv
 import re
 import pandas as pd
 import time
