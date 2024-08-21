@@ -72,12 +72,6 @@ class Prepare:
         else:
             print('Cloning Successfully, waiting to finish...')
 
-    ###################################################################################################################
-    ###################################################################################################################
-
-    #data = pd.read_excel(r'E:\Coding 1 Project\Pycharm 101\content-pyppepeer.xlsx')
-    #data = HalfTable()
-    # print('This is data',data['Filename'].values.tolist())
     ''' Although the new file created have no end, it is still treated as a csv'''
 
     def makecopy(self,directory: str):  # directory of the file to be copied
